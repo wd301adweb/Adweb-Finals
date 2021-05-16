@@ -2,13 +2,19 @@
 
 In a post-pandemic world without a proven SARS-CoV-2 vaccine or breakthrough treatment, public health experts agree that quickly tracking new COVID-19 infections is essential to limiting spread of the deadly respiratory illess, our project will help the people in the Philippines to be updated and can track the covid cases. It will also make them aware on how to protect their self and what are the symptoms of having a COVID 19, and aware on the latest issues about the COVID 19 here in the Philippines. 
 
+# Information are automatically updated due to the API
+
 # Component
 
-About
-Contact
-Current Issue
-Help
-Home
+* About.Component
+* Contact.Component
+* Current Issue.Component
+* Help.Component
+* Home.Component
+
+# Serives
+
+* HomeResultService.Service
 
 # Framework
 
@@ -16,11 +22,11 @@ Bootstrap 5
 Angular Material
 MDB
 
-# Additional structure from website
+# API structure from website
 
 Used Department Of Health API to show current and updated cases/news on the website.
 Used:
- REST API, HTTP request, JSON API Integration. 
+ REST API, HTTP request, JSON API Integration (Tanhueco). 
 
 # Hosted Website URLS:
 Netlify: https://adweb-finals-wd301.netlify.app/
