@@ -36,13 +36,13 @@ Used:
  `
 
 # Hosted Website URLS:
-Netlify: https://adweb-finals-wd301.netlify.app/
-Github: https://wd301adweb.github.io/Adweb-Finals/
+* Netlify: https://adweb-finals-wd301.netlify.app/
+* Github: https://wd301adweb.github.io/Adweb-Finals/
 
 # Members
-Gonzalez, Patricia Pamela D.
-Tanhueco, Miguel Paolo H.
-Tongol, Ray
+* Gonzalez, Patricia Pamela D.
+* Tanhueco, Miguel Paolo H.
+* Tongol, Ray
 
 # ------------------------------------------------------
 
