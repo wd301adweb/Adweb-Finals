@@ -6,15 +6,15 @@ In a post-pandemic world without a proven SARS-CoV-2 vaccine or breakthrough tre
 
 # Component
 
-* About.Component
-* Contact.Component
-* Current Issue.Component
-* Help.Component
-* Home.Component
+* `About.Component`
+* `Contact.Component`
+* `Current Issue.Component`
+* `Help.Component`
+* `Home.Component`
 
 # Serives
 
-* HomeResultService.Service
+* `HomeResultService.Service`
 
 # Framework
 
