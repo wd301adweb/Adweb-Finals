@@ -27,6 +27,13 @@ In a post-pandemic world without a proven SARS-CoV-2 vaccine or breakthrough tre
 Used Department Of Health API to show current and updated cases/news on the website.
 Used:
  REST API, HTTP request, JSON API Integration (Tanhueco). 
+ `getResultsfromServer(){
+    return this.http.get("https://api.apify.com/v2/key-value-stores/lFItbkoNDXKeSWBBA/records/LATEST?disableRedirect=true")
+  }
+  getWorldResultfromServer(){
+    return this.http.get('https://corona.lmao.ninja/v3/covid-19/all');
+  }
+ `
 
 # Hosted Website URLS:
 Netlify: https://adweb-finals-wd301.netlify.app/
