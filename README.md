@@ -23,8 +23,8 @@ Used:
  REST API, HTTP request, JSON API Integration. 
 
 # Hosted Website URLS:
-Netlify: adweb-finals-wd301.netlify.app
-Github: 
+Netlify: https://adweb-finals-wd301.netlify.app/
+Github: https://wd301adweb.github.io/Adweb-Finals/
 
 # Members
 Gonzalez, Patricia Pamela D.
