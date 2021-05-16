@@ -22,6 +22,9 @@ Used Department Of Health API to show current and updated cases/news on the webs
 Used:
  REST API, HTTP request, JSON API Integration. 
 
+# Hosted Website URLS:
+Netlify: adweb-finals-wd301.netlify.app
+Github: 
 
 # Members
 Gonzalez, Patricia Pamela D.
