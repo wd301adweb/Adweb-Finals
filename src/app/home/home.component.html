@@ -1,0 +1,129 @@
+<!-- Start Featured Slider -->
+
+<section id="mu-hero">
+    <div class="container">
+      <div class="row">
+  
+        <div class="col-md-6 col-sm-6 col-sm-push-6">
+          <div class="mu-hero-right">
+            <img src="assets/images/ebook.png" alt="Ebook img">
+          </div>
+        </div>
+  
+        <div class="col-md-6 col-sm-6 col-sm-pull-6">
+          <div class="mu-hero-left">
+            <h1>TRACKER: The Philippines’ COVID-19 vaccine distribution</h1>
+            <p>The first set of COVID-19 vaccines arrived in the Philippines on February 28, and the next day the country kicked off its vaccination program to help combat the pandemic.</p>
+            <p>The government prioritized frontline workers in health facilities in the vaccination queue, with senior citizens and persons with comorbidities next in line.</p>
+            <a href="https://www.rappler.com/newsbreak/data-documents/tracker-covid-19-vaccines-distribution-philippines" target="_blank" class="mu-primary-btn">Learn More!</a>
+            <p>*https://www.rappler.com/newsbreak/data-documents/tracker-covid-19-vaccines-distribution-philippines Resources</p>
+            <span></span>
+          </div>
+        </div>	
+  
+      </div>
+    </div>
+  </section>
+  
+  <!-- Start Featured Slider -->
+  
+  <!-- Start main content -->
+    
+  <main role="main">
+  
+    <!-- Start Counter -->
+    <section id="mu-counter">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="mu-counter-area">
+  
+              <div class="mu-counter-block">
+                <div class="row">
+                  <div class="col-md-12 col-sm-12 ">
+                    <div class="mu-single-counter">
+                      <i class="fa fa-globe" aria-hidden="true"></i>
+                      <h5 class="mu-heading-name" ><span style="font-size: 30px;
+                        font-weight: 700;
+                        margin-top: 10px;
+                        margin-bottom: 10px;">{{DateCase}}</span></h5>
+                      <span _ngcontent-udd-c18="" class="mu-header-dot"></span>
+                      <p style="font-size: 40px;
+                      font-weight: 700;
+                      margin-top: 10px;
+                      margin-bottom: 10px;">{{worldCase['cases']}}</p>
+                      <h5 class="mu-counter-name" >WORLD COVID ACTIVE CASES </h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <h3></h3>
+                  <!-- Start Single Counter -->
+                  <div class="col-md-3 col-sm-12 ">
+                    <div class="mu-single-counter">
+                      <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                      <div class="counter-value" id="divload" style="font-size: 25px;">Requesting..</div>
+                      <p style="font-size: 35px;
+                      font-weight: 700;
+                      margin-top: 10px;
+                      margin-bottom: 10px;">{{jsondata['infected']}}</p>
+                      <h5 class="mu-counter-name" >ACTIVE CASES </h5>
+                    </div>
+                  </div>
+                  <!-- / Single Counter -->
+                    <div class="col-md-3 col-sm-6">
+                      <div class="mu-single-counter">
+                        <i class="fa fa-hospital-o" aria-hidden="true"></i>
+                        <div class="counter-value" id="divload2" style="font-size: 25px;">Requesting..</div>
+                        <p style="font-size: 35px;
+                      font-weight: 700;
+                      margin-top: 10px;
+                      margin-bottom: 10px;">{{jsondata['tested']}}</p>
+                        <h5 class="mu-counter-name">TOTAL CASES</h5>
+                      </div>
+                    </div>
+  
+    
+                    <!-- Start Single Counter -->
+                    <div class="col-md-3 col-sm-6">
+                      <div class="mu-single-counter">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <div class="counter-value" id="divload3" style="font-size: 25px;">Requesting..</div>
+                        <p style="font-size: 35px;
+                      font-weight: 700;
+                      margin-top: 10px;
+                      margin-bottom: 10px; color: green;">{{jsondata['recovered']}}</p>
+                        <h5 class="mu-counter-name">RECOVERED</h5>
+                      </div>
+                    </div>
+                    <!-- / Single Counter -->
+    
+                    <!-- Start Single Counter -->
+                    <div class="col-md-3 col-sm-6">
+                      <div class="mu-single-counter">
+                        <i class="fa fa-circle" aria-hidden="true"></i>
+                        <div class="counter-value" id="divload4" style="font-size: 25px;">Requesting..</div>
+                        <p style="font-size: 35px;
+                      font-weight: 700;
+                      margin-top: 10px;
+                      margin-bottom: 10px; color: red;">{{jsondata['deceased']}}</p>
+                        <h5 class="mu-counter-name">DEATHS</h5>
+                      </div>
+                    </div>
+                    <!-- / Single Counter -->
+  
+                    <p _ngcontent-mcb-c16="" class="text-center">*https://endcov.ph/dashboard/ Resources / *https://doh.gov.ph/2019-nCoV Resources / *API from Apify Resources</p>
+                  </div>
+                  
+                
+              </div>
+  
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Counter -->
+  
+    
