@@ -18,9 +18,9 @@ In a post-pandemic world without a proven SARS-CoV-2 vaccine or breakthrough tre
 
 # Framework
 
-Bootstrap 5
-Angular Material
-MDB
+* Bootstrap 5
+* Angular Material
+* MDBootstrap
 
 # API structure from website
 
